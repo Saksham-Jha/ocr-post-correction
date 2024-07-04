@@ -54,6 +54,16 @@ For a single-source model, modify the experimental settings in `train_single-sou
    ```bash
    bash train_model.sh
    ```
+### Testing
+
+For testing with a single-source model, modify the experimental settings in `test_single-source.sh`.
+
+Then run
+```
+bash test_single-source.sh
+```
+
+For multisource, use `test_multi-source.sh`.
 
 ### Evaluation
 
